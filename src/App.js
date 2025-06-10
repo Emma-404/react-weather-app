@@ -4,13 +4,18 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      Weather App
-      <p>
-        This project was coded by Emma-404 and is{" "}
-        <a href="https://github.com/Emma-404/react-weather-app" target="_blank">
-          Open-sourced{" "}
-        </a>
-      </p>
+      <div className="container">
+        Weather App
+        <footer>
+          This project was coded by Emma-404 and is{" "}
+          <a
+            href="https://github.com/Emma-404/react-weather-app"
+            target="_blank"
+          >
+            Open-sourced{" "}
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
