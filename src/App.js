@@ -12,6 +12,7 @@ export default function App() {
           <a
             href="https://github.com/Emma-404/react-weather-app"
             target="_blank"
+            rel="noreferrer"
           >
             Open-sourced{" "}
           </a>
