@@ -11,7 +11,15 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="London" />
         <footer>
-          This project was coded by Emma-404 and is{" "}
+          This project was coded by{" "}
+          <a
+            href="https://github.com/Emma-404"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Emma-404
+          </a>{" "}
+          and is{" "}
           <a
             href="https://github.com/Emma-404/react-weather-app"
             target="_blank"
