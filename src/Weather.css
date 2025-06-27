@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(214, 212, 227);
+  background-color: #ffffff;
 }
 
 .Weather {
@@ -16,9 +16,9 @@ body {
 }
 
 .Weather h1 {
-  color: rgb(83, 39, 166);
+  color: #2e2836;
   font-size: 24px;
-  font-weight: 100;
+  font-weight: bold;
   margin: 20px 0 0 0;
   line-height: 25px;
 }
@@ -29,16 +29,18 @@ body {
 }
 
 .Weather li {
-  color: rgb(83, 39, 166);
+  color: #2e2836;
+  opacity: 0.8;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
   list-style: none;
+  padding: 0;
 }
 
 .Weather canvas {
   margin-right: 10px;
-
+  padding-left: 20px;
   display: inline-block;
 }
 
